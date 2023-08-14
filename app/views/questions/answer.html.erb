@@ -1,0 +1,12 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+<div class="mt-5 container border-start border-5">
+  <p><%= @question %></p>
+  <p class="fst-italic">-You</p>
+</div>
+<div id="color" class="mt-3 border-start border-5 bg-$orange-200">
+  <p class="fw-bold ps-2"><%= @answer %></p>
+  <p class="fst-italic ps-2">-Your Coach</p>
+</div>
+<%= link_to "Ask another question", :question %>
+</div>
